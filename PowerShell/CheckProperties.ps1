@@ -6,6 +6,6 @@ Else{Install-Module -Name ExchangeOnlineManagement -Scope CurrentUser}
 Import-Module ExchangeOnlineManagement
 Connect-ExchangeOnline
 
-Get-Mailbox -Identity 'NAuger@vertex.ca' | Select *
+Get-Mailbox -Identity 'User' | Select *
 
 Set-ExecutionPolicy Restricted
