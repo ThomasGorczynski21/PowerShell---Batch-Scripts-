@@ -1,0 +1,1 @@
+Set-Mailbox "USER" -ForwardingAddress $NULL -ForwardingSmtpAddress $NULL
